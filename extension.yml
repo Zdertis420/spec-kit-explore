@@ -1,0 +1,23 @@
+schema_version: "1.0"
+
+extension:
+  id: "explore"
+  name: "Explore"
+  version: "1.0.0"
+  description: "Read-only survey of the project and its latest feature: codebase condition, feature readiness and recent changes"
+  author: "Zdertis420"
+  license: "MIT"
+
+requires:
+  speckit_version: ">=0.1.0"
+
+provides:
+  commands:
+    - name: "speckit.explore.explore"
+      file: "commands/explore.md"
+      description: "Report codebase condition, latest feature readiness and recent changes; optional focus argument"
+
+tags:
+  - "status"
+  - "onboarding"
+  - "read-only"
