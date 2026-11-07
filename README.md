@@ -11,6 +11,10 @@ A read-only spec-kit command that surveys a project and reports:
 ```bash
 specify extension add --dev /path/to/speckit-extensions/explore
 ```
+or
+```bash
+specify extension add explore --from https://github.com/Zdertis420/spec-kit-explore/archive/refs/tags/v1.0.0.zip
+```
 
 ## Usage
 
